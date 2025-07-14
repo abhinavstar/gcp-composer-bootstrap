@@ -22,7 +22,7 @@ resource "google_project_service" "cloudresourcemanager" {
   project = var.project_id
   service = "cloudresourcemanager.googleapis.com"
 }
-
+#test
 resource "google_project_service" "serviceusage" {
   project = var.project_id
   service = "serviceusage.googleapis.com"
